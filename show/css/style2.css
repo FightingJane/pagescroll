@@ -1,0 +1,145 @@
+body {
+    min-width: 1024px;
+}
+
+header {
+    font-size: 3.333em;
+    color: #f1e7e7;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(#4e74c1, #4e74c1);
+}
+
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .box {
+    height: 365px;
+    position: relative;
+    padding-bottom: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.one {
+    border-top: none;
+}
+
+.main .box .title {
+    padding-top: 16px;
+}
+
+.main .box .title .cn {
+    color: #4e74c1;
+    font-size: 30px;
+}
+
+.main .box .title .en {
+    color: #b1b1b5;
+    font-size: 2.167em;
+    margin-left: 15px;
+}
+
+.main .box .cont {
+    color: #6f6f82;
+    font-size: 1.167em;
+    line-height: 26px;
+    padding: 25px 0 30px;
+    display: inline-block;
+    max-width: 550px;
+}
+
+.main .box .cont .detail {
+    min-height: 180px;
+}
+
+.main .box .cont .detail-long {
+    min-height: 160px;
+}
+
+.main .box .cont a {
+    color: #094dd8
+}
+
+.main .box .cont a:hover {
+    color: #32c92a;
+}
+
+.main .box .link {
+    float: right;
+    padding-top: 90px;
+}
+
+.main .box .link img {
+    width: 200px;
+}
+
+.main .box .link p {
+    line-height: 26px;
+    font-size: 1.167em;
+    color: #bbbbbe;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    -moz-outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff6c00;
+}
+
+#menu {
+    position: fixed;
+    top: 32%;
+    right: 0;
+    margin-top: -135px;
+    z-index: 90;
+}
+
+#menu ul {
+    display: block;
+    list-style: none;
+    box-shadow: 0 0 20px 5px #a3a9a4;
+}
+
+#menu ul li div {
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background-color: #fff;
+    color: #32c96a;
+    display: block;
+}
+
+#menu ul li div.two {
+    height: 54px;
+    background-color: #fff;
+    color: #32c96a;
+    line-height: 27px;
+    width: 200px;
+}
+
+#menu ul li div:hover,
+#menu ul li.active div {
+    background-color: #32c92a;
+    color: #fff;
+}
+
+ol {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.last {
+    padding-bottom: 500px;
+}
